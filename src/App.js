@@ -21,7 +21,7 @@ function App() {
         </div>
         
         <div className="photosec">
-          <img className="myimg" src="IMG_1147.heic" alt="" />
+          <img className="myimg" src="WhatsApp Image 2023-03-22 at 19.41.51.jpg" alt="" />
           
           <div className="orangeborder">
 
