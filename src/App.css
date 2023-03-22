@@ -1,0 +1,169 @@
+html{
+  background-color: rgb(37, 37, 37);
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.father{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-top: 50px;
+  flex-wrap: wrap;
+}
+
+.myname{
+  font-size: 3rem;
+  color: white;
+  animation: fadding  1s ease-in;
+}
+.myimg{
+
+  width: 300px;
+  height: 300px;
+  animation: fadding 0.50s ease-in;
+  
+}
+.orangeborder{
+  background-color: orange;
+  height: 400px;
+  width: 4px;
+  margin-left: 40px;
+  margin-top: -30px;
+
+  animation:verticalgroth 0.50s ease-in  ;
+
+}
+.photosec{
+  display: flex;
+}
+.rightside{
+  height: 300px;
+  width: 500px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  animation: fadding 0.50s ease-in;
+}
+.learner-change{
+  color: orange;
+}
+.connect{
+  display: flex;
+  justify-content: flex-start;
+  width: 320px;
+}
+.cwm{
+  color: white;
+  
+}
+.linkandicons{
+  display: flex;
+
+  height: 30px;
+  width: 200px;
+  color: orange;
+  margin-left: -120px;
+}
+.instaico:hover{
+  color: rgb(255, 0, 166);
+}
+
+a{
+  color: orange;
+}
+.twiter{
+  margin-left: 10px;
+}
+.twiter:hover{
+ color: rgb(54, 148, 255);
+}
+.git{
+  margin-left: 10px;
+}
+.git:hover{
+  color: black;
+}
+.linked{
+  margin-left: 10px;
+}
+.linked:hover{
+  color: rgb(17, 111, 253);
+}
+h5{
+  color: white;
+  margin-left: 33px;
+}
+
+hr{
+  width: 200px;
+  animation: hrgrowth 0.50s ease-in;
+}
+@keyframes verticalgroth {
+  0% {height: 0px;}
+
+  100%{height: 400px;}
+  
+}
+
+@keyframes hrgrowth {
+  0% {width: 0px;}
+
+  100%{width: 200px;}
+  
+}
+
+
+@keyframes fadding {
+  0% {opacity: 0%;}
+
+  100%{opacity: 100% ;}
+  
+}
+
+@media only screen and (max-width: 700px) {
+  .orangeborder{
+    display: none;
+  }
+  .photosec{
+    justify-content: center;
+    align-items:center ;
+  }
+  .namehere{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .myname{
+    font-size: 2rem;
+  }
+  .horizontalbar{
+    border: 1px solid orange;
+    
+  }
+  .connect{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .fatheroflinks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .linkandicons{
+    margin-left: 0px;
+    justify-content: center;
+    align-items: center;
+  }
+  h5{
+    margin-left: 0px;
+  }
+  .rightside{
+    width: 350px;
+  }
+}
