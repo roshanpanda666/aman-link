@@ -5,7 +5,7 @@ import {Glitch} from "react-teffex"
 
 function App() {
   let [text] = useTypewriter({
-    words: [' Learner',' Developer',' Designer'],
+    words: [' Learner',' Developer',' Designer',' Cricketer'],
     loop:{},
     typeSpeed:120,
     deleteSpeed: 50,
@@ -45,24 +45,20 @@ function App() {
         <div className="fatheroflinks">
 
         <div className="linkandicons">
-          <a href="https://instagram.com/sabyasachi_panda_?igshid=ZDdkNTZiNTM=">
+          <a href="https://instagram.com/amanpattnaik_?igshid=YmMyMTA2M2Y=">
           <div className="instaico">
           <i className="fa-brands fa-instagram fa-1x"></i>
           </div>
           </a>
-          <a href="https://twitter.com/Roshan_panda007?t=ddAdKm3LFlCjjtJoe3wKbg&s=08">
-          <div className="twiter">
-          <i className="fa-brands fa-twitter"></i>
-          </div>
-          </a>
-          <a href="https://github.com/roshanpanda666">
+          
+          <a href="https://github.com/amanpattnaik">
           <div className="git">
           <i className="fa-brands fa-github"></i>
           </div>
           </a>
           
-        <a href="https://www.linkedin.com/in/sabyasachi-panda-351870256/"><div className="linked">
-        <i className="fa-brands fa-linkedin"></i>
+        <a href="https://www.facebook.com/aman.pattnaik.52?mibextid=LQQJ4d"><div className="linked">
+        <i className="fa-brands fa-facebook"></i>
         </div></a>
         
       </div>
